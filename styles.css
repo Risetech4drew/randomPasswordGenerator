@@ -46,7 +46,14 @@ body{
     padding: 30px;
     border-radius: 6px;
 }
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
 button{
+    /* margin-top: 20px; */
     padding: 9px 15px;
     border-radius: 6px;
     border: none;
@@ -91,6 +98,30 @@ button:active{
     display: flex;
     gap: 20px;
 }
-   
+ 
+input[type="number"]{
+    width: 50px;
+    height: 25px;
+    background: #273549;
+    color: #10B981;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+}
     
-    
+.checkboxOpts{
+    /* border: 2px solid whitesmoke; */
+    margin: 20px 0 0 0;
+    width: 350px;
+    /* padding: 10px; */
+    display: flex;
+    /* justify-content: flex-start; */
+    gap: 10px;
+}
+.checkbox{
+    padding: 5px;
+    color: #10B981;
+    background: #273549;
+}

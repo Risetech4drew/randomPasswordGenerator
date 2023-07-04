@@ -18,7 +18,37 @@
             
             <h1 class="heading">Generate a<span class="accent-color">random password</span></h1>
             <p class="supporting-text">Never use an insecure password again</p>
-            <button id="generate-Button">Generate passwords</button>
+
+            <div class="wrapper">
+                <button id="generate-Button">Generate passwords</button>
+                <div class="passwordlenContainer">
+                    <label for="length">password length</label>
+                    <input type="number" id="length-el" min="4" max="15" value=" ">
+                </div>
+                
+            </div>
+
+            <div class="checkboxOpts">
+                <div class="numbersCheckbox">
+                    <label for="inludeNumbers">numbers</label>
+                    <input type="checkbox" class="checkbox" id="includeNumbers-el" checked>
+                </div>
+                <div class="lettersCheckbox">
+                    <label for="inludeLetters">Letters</label>
+                    <input type="checkbox"  id="includeLetters-el" checked>
+                </div>
+                <div class="symbolsCheckbox">
+                    <label for="inludeSymbols">Symbols</label>
+                    <input type="checkbox"  id="includeSymbols-el" checked>
+                </div>       
+            </div>
+
+            
+  
+
+            
+
+
             <div class="line"></div>
 
             <div class="rectangles">
